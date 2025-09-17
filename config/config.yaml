@@ -1,0 +1,14 @@
+parameters:
+  pixel_width: 1920
+  pixel_height: 1080
+  frame_height: 14.0 * 9 / 16
+  frame_width: 14.0
+  frame_rate: 60
+targets:
+  test:
+  shorts:
+    pixel_width: 1080
+    pixel_height: 1920
+    frame_height: 14.0
+    frame_width: 14.0 * 9 / 16
+  normal:

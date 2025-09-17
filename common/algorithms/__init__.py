@@ -1,0 +1,1 @@
+from common.algorithms.algorithm_scene import AlgorithmScene

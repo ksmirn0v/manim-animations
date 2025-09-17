@@ -1,0 +1,62 @@
+parameters:
+  values: [3, 2, 9, 5, 1, 8, 7, 10, 4, 6]
+  bar:
+    HEIGHT_LOCAL: 0.5
+    WIDTH_LOCAL: 0.5
+    CORNER_RADIUS_LOCAL: 0.15
+    NUMBER_SCALE_LOCAL: 0.75
+    GAP_BETWEEN_RECT_AND_NUMBER_LOCAL: 0.23
+  sorting_object:
+    GAP_BETWEEN_BARS_LOCAL: 0.15
+    DISTANCE_TO_EDGE_LOCAL: 1.0
+  swapping_circle:
+    RADIUS_LOCAL: 0.27
+  animations:
+    BAR_SELECT_LOWER_FILL_COLOR: "#5fa1e3"
+    BAR_SELECT_HIGHER_FILL_COLOR: "#e37676"
+    BAR_SELECT_FINAL_FILL_COLOR: "#83C167"
+    BAR_PIVOT_FILL_COLOR: "#e8d899"
+    BAR_SELECT_STROKE_WIDTH: 10.0
+    BAR_WIGGLE_COUNT: 3
+    BAR_WIGGLE_ANGLE: 0.1
+    BAR_WIGGLE_SCALE: 1.0
+    SORTING_OBJECT_FOCUS_OPACITY: 0.2
+    SORTING_OBJECT_SHIFT: 0.2
+    CIRCLE_SELECT_STROKE_WIDTH: 10.0
+    ANIMATION_SPEED_SORTING_OBJECT_SHIFT: 0.25
+    ANIMATION_SPEED_BAR_WIGGLE: 1.0
+targets:
+  test:
+  shorts:
+    values: [8, 6, 1, 5, 4, 7, 3, 2]
+    bar:
+      HEIGHT_LOCAL: 0.6
+      WIDTH_LOCAL: 0.6
+    animations:
+      ANIMATION_SPEED: 0.4
+      ANIMATION_SPEED_SORTING_OBJECT_SHIFT: 0.25
+      ANIMATION_SPEED_BAR_WIGGLE: 1.0
+  normal:
+    values: [
+      5, 4, 22, 19, 23, 26,
+      28, 20, 3, 7, 21, 27,
+      13, 1, 10, 15, 30, 16,
+      6, 24, 2, 17, 11, 8,
+      18, 29, 12, 14, 9, 25
+    ]
+    bar:
+      HEIGHT_LOCAL: 0.21
+      WIDTH_LOCAL: 0.31
+      CORNER_RADIUS_LOCAL: 0.07
+      NUMBER_SCALE_LOCAL: 0.4
+      GAP_BETWEEN_RECT_AND_NUMBER_LOCAL: 0.17
+      FILL_OPACITY: 0.8
+      STROKE_OPACITY: 0.95
+    sorting_object:
+      GAP_BETWEEN_BARS_LOCAL: 0.12
+    swapping_circle:
+      RADIUS_LOCAL: 0.17
+    animations:
+      BAR_SELECT_STROKE_WIDTH: 8.0
+      BAR_WIGGLE_ANGLE: 0.05
+      CIRCLE_SELECT_STROKE_WIDTH: 8.0

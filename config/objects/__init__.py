@@ -1,0 +1,3 @@
+from config.objects.bar_config import BarConfig
+from config.objects.simple_circle_config import SimpleCircleConfig
+from config.objects.sorting_object_config import SortingObjectConfig

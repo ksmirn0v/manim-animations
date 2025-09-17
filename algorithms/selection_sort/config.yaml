@@ -1,0 +1,48 @@
+parameters:
+  values: [3, 2, 5, 1, 7, 4, 6]
+  bar:
+    HEIGHT_LOCAL: 0.5
+    WIDTH_LOCAL: 0.5
+    CORNER_RADIUS_LOCAL: 0.15
+    NUMBER_SCALE_LOCAL: 0.9
+    GAP_BETWEEN_RECT_AND_NUMBER_LOCAL: 0.15
+  sorting_object:
+    GAP_BETWEEN_BARS_LOCAL: 0.15
+    DISTANCE_TO_EDGE_LOCAL: 1.0
+  animations:
+    BAR_SELECT_FILL_COLOR: "#FFEA94"
+    BAR_SELECT_FILL_OPACITY: 1.0
+    BAR_SELECT_MIN_STROKE_COLOR: "#83C167"
+    BAR_SELECT_MIN_STROKE_OPACITY: 1.0
+    BAR_SELECT_MIN_STROKE_WIDTH: 10.0
+    BAR_SELECT_FINAL_FILL_COLOR: "#83C167"
+    BAR_SELECT_FINAL_STROKE_COLOR: "#FFFFFF"
+targets:
+  test:
+  shorts:
+    bar:
+      HEIGHT_LOCAL: 0.6
+      WIDTH_LOCAL: 0.6
+    animations:
+      ANIMATION_SPEED: 0.3
+  normal:
+    values: [
+      22, 24, 25, 29, 17,
+      9, 27, 3, 21, 10,
+      4, 14, 5, 23, 16,
+      26, 7, 6, 18, 2,
+      13, 19, 20, 8, 1,
+      11, 12, 15, 30, 28
+    ]
+    bar:
+      HEIGHT_LOCAL: 0.21
+      WIDTH_LOCAL: 0.31
+      CORNER_RADIUS_LOCAL: 0.07
+      NUMBER_SCALE_LOCAL: 0.4
+      GAP_BETWEEN_RECT_AND_NUMBER_LOCAL: 0.10
+      FILL_OPACITY: 0.8
+      STROKE_OPACITY: 0.95
+    sorting_object:
+      GAP_BETWEEN_BARS_LOCAL: 0.12
+    animations:
+      BAR_SELECT_MIN_STROKE_WIDTH: 8.0

@@ -1,0 +1,51 @@
+parameters:
+  values: [3, 2, 9, 5, 1, 8, 7, 10, 4, 6]
+  bar:
+    HEIGHT_LOCAL: 0.5
+    WIDTH_LOCAL: 0.5
+    CORNER_RADIUS_LOCAL: 0.15
+    NUMBER_SCALE_LOCAL: 0.9
+    GAP_BETWEEN_RECT_AND_NUMBER_LOCAL: 0.15
+  sorting_object:
+    GAP_BETWEEN_BARS_LOCAL: 0.15
+    DISTANCE_TO_EDGE_LOCAL: 1.0
+  animations:
+    BAR_WIGGLE_COUNT: 3
+    BAR_WIGGLE_ANGLE: 0.1
+    BAR_WIGGLE_SCALE: 1.0
+    SORTING_OBJECT_FOCUS_OPACITY: 0.2
+    SORTING_OBJECT_SHIFT: 0.2
+    ANIMATION_SPEED_SORTING_OBJECT_SHIFT: 0.25
+    ANIMATION_SPEED_BAR_WIGGLE: 1.0
+    SORTING_OBJECT_SELECT_FILL_COLOR_LEFT: "#DEA6DC"
+    SORTING_OBJECT_SELECT_FILL_COLOR_RIGHT: "#A6C4DE"
+targets:
+  test:
+  shorts:
+    values: [8, 6, 1, 5, 4, 7, 3, 2]
+    bar:
+      HEIGHT_LOCAL: 0.6
+      WIDTH_LOCAL: 0.6
+    animations:
+      ANIMATION_SPEED: 0.3
+  normal:
+    values: [
+      5, 4, 22, 19, 23, 26,
+      28, 20, 3, 7, 21, 27,
+      13, 1, 10, 15, 30, 16,
+      6, 24, 2, 17, 11, 8,
+      18, 29, 12, 14, 9, 25
+    ]
+    bar:
+      HEIGHT_LOCAL: 0.21
+      WIDTH_LOCAL: 0.31
+      CORNER_RADIUS_LOCAL: 0.07
+      NUMBER_SCALE_LOCAL: 0.4
+      GAP_BETWEEN_RECT_AND_NUMBER_LOCAL: 0.10
+      FILL_OPACITY: 0.8
+      STROKE_OPACITY: 0.95
+    sorting_object:
+      GAP_BETWEEN_BARS_LOCAL: 0.12
+    animations:
+      ANIMATION_SPEED: 0.7
+      BAR_WIGGLE_ANGLE: 0.05

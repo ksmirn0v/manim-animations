@@ -1,0 +1,14 @@
+common/__pycache__/
+common/algorithms/__pycache__/
+common/animations/__pycache__/
+models/__pycache__/
+config/__pycache__/
+config/objects/__pycache__/
+algorithms/__pycache__/
+algorithms/**/__pycache__/
+objects/__pycache__/
+constants/__pycache__/
+utils/__pycache__/
+.idea/
+.DS_Store
+media/
